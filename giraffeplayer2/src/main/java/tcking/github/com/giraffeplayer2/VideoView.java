@@ -91,7 +91,7 @@ public class VideoView extends FrameLayout{
     }
 
     @NonNull
-    protected DefaultMediaController createMediaController() {
+    protected MediaController createMediaController() {
         return new DefaultMediaController(getContext());
     }
 
